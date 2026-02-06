@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
   <title>Moby Dick(白鯨)</title>
 </head>
 <body>
   <!-- スタイルをもっと追加すること（最後のセクションで行う予定） -->
-  <div>
-    <a href="index.html">homeページ</a>
-    <a href="tags.html">HTMLタグ集</a>
-    <a href="moby_dick.html">読書案内『Moby-Dick』</a>
+  <div id="main-nav" class="nav-menu">
+    <a href="index.html"     class="nav-spacing">homeページ</a>
+    <a href="tags.html"      class="nav-spacing">HTMLタグ集</a>
+    <a href="moby_dick.html" class="nav-spacing">読書案内『Moby-Dick』</a>
   </div>
-  <header>
+  <header style="text-align: center; margin: 0 0 80px;">
     <h1>Softcover読書案内</h1>
     <h2>Moby-Dick(白鯨)</h2>
   </header>
@@ -30,12 +31,12 @@
     </p>
   </div>
   <a href="https://commons.wikimedia.org/wiki/File:Sperm_whale_pod.jpg">
-    <img src="images/sperm_whales.jpg" alt="鯨">
+    <img src="images/sperm_whales.jpg" alt="鯨" style="display: block; margin: 0 auto;">
   </a>
-  <div>
+  <div style="width: 560px; margin: 20px auto; padding: 40px; background-color: #fafafa;">
     <h3>Moby-Dick(白鯨):海にまつわる昔話</h3>
     <a href="https://www.softcover.io/read/6070fb03/moby-dick" target="_blank" rel="noopener">
-      <img src="images/moby_dick.png" alt="白鯨">
+      <img src="images/moby_dick.png" alt="白鯨" style="height: 200px; float: left; margin-right: 40px;">
     </a>
     <p>
       Herman Melville著『<a href="https://www.softcover.io/read/6070fb03/moby-dick"
@@ -43,9 +44,10 @@
       <em>Moby-Dick</em></a>（白鯨）』は以下の不滅の一文から始まります。
     </p>
 
-    <blockquote>
+    <blockquote style="font-style: italic; font-size: 20px;">
       <p>
-        <span>イシュマエルと呼んでくれ。</span>あれは何年か前のことだったかな、当時のわしはすってんてんで、
+        <span style="font-style: normal; font-size: 24px; font-weight: bold; color: #f00;">イシュマエルと呼んでくれ。</span>
+        あれは何年か前のことだったかな、当時のわしはすってんてんで、
         陸にいても面白くも何ともなかったんで、しばらく船に乗って世界中の海を見て回ってやろうと思っとった。
         腹の虫がおさまらんときはそうすることにしとる。
       </p>

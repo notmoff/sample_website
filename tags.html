@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
   <title>HTMLタグ一覧</title>
 </head>
 <body>
-  <div>
-    <a href="index.html">homeページ</a>
-    <a href="tags.html">HTMLタグ集</a>
-    <a href="moby_dick.html">読書案内『Moby-Dick』</a>
+  <div id="main-nav" class="nav-menu">
+    <a href="index.html"     class="nav-spacing">homeページ</a>
+    <a href="tags.html"      class="nav-spacing">HTMLタグ集</a>
+    <a href="moby_dick.html" class="nav-spacing">読書案内『Moby-Dick』</a>
   </div>
   <h1>重要なHTMLタグ一覧</h1>
   <a href="https://www.flickr.com/photos/jdhancock/3814523970" target="_blank" rel="noopener">
@@ -87,6 +88,11 @@
       <td>リスト項目(list item)</td>
       <td>この中に箇条書きデータを置く</td>
     </tr>
+    <tr>
+      <td><code>blockquote</code></td>
+      <td>引用ブロック(block quote)</td>
+      <td>内包する要素のテキストが引用文であることを表す</td>
+    </tr>
   </table>
 
   <h2>インライン要素(inline element)</h2>
@@ -144,6 +150,40 @@
         </code>
       </td>
       <td><span>ここだけ赤色に</span></td>
+    </tr>
+  </table>
+
+  <h2>ドキュメントタグ</h2>
+  <table>
+    <tr>
+      <th>HTMLタグ</th>
+      <th>タグ名</th>
+      <th>目的</th>
+    </tr>
+    <tr>
+      <td><code>html</code></td>
+      <td>hyper text markup langage</td>
+      <td>文書の最上位要素を表す</td>
+    </tr>
+    <tr>
+      <td><code>head</code></td>
+      <td>頭(head)</td>
+      <td>文書に関する機械可読な情報を内包する</td>
+    </tr>
+    <tr>
+      <td><code>body</code></td>
+      <td>体(body)</td>
+      <td>文書のコンテンツを表す</td>
+    </tr>
+    <tr>
+      <td><code>title</code></td>
+      <td>タイトル</td>
+      <td>タイトルバーやページのタブに表示する文書タイトルを定義する</td>
+    </tr>
+    <tr>
+      <td><code>meta</code></td>
+      <td>高次の(meta)</td>
+      <td>メタデータを表す</td>
     </tr>
   </table>
 </body>
